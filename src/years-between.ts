@@ -33,7 +33,7 @@ function yearsBetween(a: Date, b?: Date): number[] | ((b: Date) => number[]) {
             .sort((x: number, y: number) => x - y)
             .map(time => moment.utc(time))
 
-        const diff = moment.utc(end).diff(moment.utc(start), 'years')
+        const diff = end.clone().startOf('year').diff(start.clone().startOf('year'), 'years')
 
         return [...Array(1 + diff).keys()]
             .map(year => year + start.year())

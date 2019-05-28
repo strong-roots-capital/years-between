@@ -41,3 +41,9 @@ test('should be curried', t => {
         yearsBetween(start.toDate()) (end.toDate())
     )
 })
+
+test('should return expected years', t => {
+    const start = moment.utc('10/14/2016', 'MM/DD/YYYY')
+    const end = moment.utc('04/15/2018', 'MM/DD/YYYY')
+    t.deepEqual([2016, 2017, 2018], yearsBetween(start.toDate(), end.toDate()))
+})
