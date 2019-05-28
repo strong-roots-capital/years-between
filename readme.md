@@ -1,6 +1,6 @@
 # years-between [![Build status](https://travis-ci.org/strong-roots-capital/years-between.svg?branch=master)](https://travis-ci.org/strong-roots-capital/years-between) [![npm version](https://img.shields.io/npm/v/@strong-roots-capital/years-between.svg)](https://npmjs.org/package/@strong-roots-capital/years-between) [![codecov](https://codecov.io/gh/strong-roots-capital/years-between/branch/master/graph/badge.svg)](https://codecov.io/gh/strong-roots-capital/years-between)
 
-> List of years between two dates, inclusive
+> List years between two dates, inclusive
 
 ## Install
 
