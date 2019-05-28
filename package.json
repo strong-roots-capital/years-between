@@ -1,6 +1,6 @@
 {
   "name": "@strong-roots-capital/years-between",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "List of years between two dates, inclusive",
   "main": "dist/src/years-between.js",
   "types": "dist/src/years-between.d.ts",
